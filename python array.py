@@ -1,6 +1,9 @@
-arr = [10,25,7,99,45]
-largest = arr
-for num in arr:
+numbers = [10, 25, 7, 99, 45]
+
+largest = numbers[0]   # Start with the first element
+
+for num in numbers:
     if num > largest:
         largest = num
-print("largest number is:",largest)        
+
+print("Largest number is:", largest)
